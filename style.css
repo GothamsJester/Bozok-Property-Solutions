@@ -1,9 +1,46 @@
-</.html>
-<style>
-  .nav-link {
-    padding-right: 25px; /* Adjust this value for spacing */
-  }
-</style>
+Index.HTML
 
-<a href="index.html" class="nav-link">Home</a>
-<a href="faq.html" class="nav-link">FAQ</a>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  background-color: #4267B2; /* Similar to the blue of the old FB color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px; /* Adjust based on your logo's dimension */
+  width: auto;
+  margin-right: 15px;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
